@@ -478,7 +478,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Geepm.Vasyl-Hutsko";
+				PRODUCT_BUNDLE_IDENTIFIER = com.profile.vasylhutsko;
 				PRODUCT_NAME = "Vasyl Hutsko";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -499,7 +499,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Geepm.Vasyl-Hutsko";
+				PRODUCT_BUNDLE_IDENTIFIER = com.profile.vasylhutsko;
 				PRODUCT_NAME = "Vasyl Hutsko";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
