@@ -11,10 +11,14 @@
 		849E4D5D26A51C97000D7196 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E4D5C26A51C97000D7196 /* Tests_macOS.swift */; };
 		849E4D5F26A51C97000D7196 /* Vasyl_HutskoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E4D3626A51C96000D7196 /* Vasyl_HutskoApp.swift */; };
 		849E4D6026A51C98000D7196 /* Vasyl_HutskoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E4D3626A51C96000D7196 /* Vasyl_HutskoApp.swift */; };
-		849E4D6126A51C98000D7196 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E4D3726A51C96000D7196 /* ContentView.swift */; };
-		849E4D6226A51C98000D7196 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E4D3726A51C96000D7196 /* ContentView.swift */; };
+		849E4D6126A51C98000D7196 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E4D3726A51C96000D7196 /* MainView.swift */; };
+		849E4D6226A51C98000D7196 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E4D3726A51C96000D7196 /* MainView.swift */; };
 		849E4D6326A51C98000D7196 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849E4D3826A51C97000D7196 /* Assets.xcassets */; };
 		849E4D6426A51C98000D7196 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849E4D3826A51C97000D7196 /* Assets.xcassets */; };
+		84FF556126AC671B00E451EF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF556026AC671B00E451EF /* HomeView.swift */; };
+		84FF556226AC671B00E451EF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF556026AC671B00E451EF /* HomeView.swift */; };
+		84FF556426AC675E00E451EF /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF556326AC675E00E451EF /* InfoView.swift */; };
+		84FF556526AC675E00E451EF /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF556326AC675E00E451EF /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 
 /* Begin PBXFileReference section */
 		849E4D3626A51C96000D7196 /* Vasyl_HutskoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vasyl_HutskoApp.swift; sourceTree = "<group>"; };
-		849E4D3726A51C96000D7196 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		849E4D3726A51C96000D7196 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		849E4D3826A51C97000D7196 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		849E4D3D26A51C97000D7196 /* Vasyl Hutsko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vasyl Hutsko.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		849E4D4026A51C97000D7196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +53,8 @@
 		849E4D5826A51C97000D7196 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		849E4D5C26A51C97000D7196 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		849E4D5E26A51C97000D7196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FF556026AC671B00E451EF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		84FF556326AC675E00E451EF /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +105,10 @@
 			isa = PBXGroup;
 			children = (
 				849E4D3626A51C96000D7196 /* Vasyl_HutskoApp.swift */,
-				849E4D3726A51C96000D7196 /* ContentView.swift */,
+				849E4D3726A51C96000D7196 /* MainView.swift */,
 				849E4D3826A51C97000D7196 /* Assets.xcassets */,
+				84FF556026AC671B00E451EF /* HomeView.swift */,
+				84FF556326AC675E00E451EF /* InfoView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -308,7 +316,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				849E4D6126A51C98000D7196 /* ContentView.swift in Sources */,
+				84FF556426AC675E00E451EF /* InfoView.swift in Sources */,
+				84FF556126AC671B00E451EF /* HomeView.swift in Sources */,
+				849E4D6126A51C98000D7196 /* MainView.swift in Sources */,
 				849E4D5F26A51C97000D7196 /* Vasyl_HutskoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,7 +327,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				849E4D6226A51C98000D7196 /* ContentView.swift in Sources */,
+				84FF556526AC675E00E451EF /* InfoView.swift in Sources */,
+				84FF556226AC671B00E451EF /* HomeView.swift in Sources */,
+				849E4D6226A51C98000D7196 /* MainView.swift in Sources */,
 				849E4D6026A51C98000D7196 /* Vasyl_HutskoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
